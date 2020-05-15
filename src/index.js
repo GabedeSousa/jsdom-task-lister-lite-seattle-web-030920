@@ -1,4 +1,67 @@
 
+const element1 = document.getElementById("new_task_description")
+const apagar = document.getElementById("me-delete")
+const element2 =  document.getElementById("make-me-cool").innerHTML.value
+const task = document.getElementById("task")
+const element3 = document.createElement("li")
+
+// const  apaga = task.remove()
+
+
+function myFunc(){
+  element1.addEventListener("submit", function(e){
+    e.preventDefault()
+    task.appendChild("li")
+    
+    
+  })
+  
+}
+
+
+
+// function toDoDelete(element3) {
+//   $(element3).parents("li").remove();
+// }
+
+// function myDelete(){
+//   element3.addEventListener("click", toDoDelete(element3){
+
+// }
+
+myFunc()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Run code inside once all HTML is loaded
 document.addEventListener("DOMContentLoaded", () => {
   // your code here
